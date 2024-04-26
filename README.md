@@ -1,3 +1,3 @@
-for testing:
-user: admin
-pass: demo
+For Login Credentials.
+username : admin
+password : demo
