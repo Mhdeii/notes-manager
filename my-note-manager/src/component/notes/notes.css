@@ -1,0 +1,24 @@
+.content-container {
+    height: calc(100vh - 80px);
+    display: flex;
+    overflow-y: auto;
+}
+
+.content-wrapper {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+@media(max-width: 600px) {
+    .content-container {
+        flex-direction: column;
+    }
+    .content-container .card {
+        width: 100% !important;
+        height: auto !important;
+        overflow-y: unset !important;
+    }
+    textarea {
+        height: 150px;
+    }
+}

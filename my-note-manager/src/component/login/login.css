@@ -1,0 +1,17 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login-card {
+    width: 40%;
+}
+
+@media(max-width: 1024px) {
+    .login-card {
+        width: 80%;
+    }
+}
